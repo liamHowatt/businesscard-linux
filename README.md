@@ -21,6 +21,10 @@ You can find my forks here:
 
 ## Build
 
+Install dependencies
+
+	sudo apt-get update && sudo apt-get install -y git build-essential wget cpio unzip rsync bc libncurses5-dev screen python3 file && ln -s /usr/bin/python3 /usr/bin/python
+
 Make sure submodules are initialized:
 
 	git submodule update --init
