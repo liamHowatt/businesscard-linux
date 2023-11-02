@@ -1,0 +1,14 @@
+--- a/arch/arm/boot/dts/suniv-f1c100s.dtsi	2023-11-01 01:50:24.217063363 +0000
++++ b/arch/arm/boot/dts/suniv-f1c100s.dtsi	2023-11-01 21:15:24.451974151 +0000
+@@ -221,6 +221,11 @@
+ 				function = "uart0";
+ 			};
+ 
++			uart1_pa_pins: uart1-pa-pins {
++				pins = "PA2", "PA3";
++				function = "uart1";
++			};
++
+ 			mmc0_pins: mmc0-pins {
+ 				pins = "PF0", "PF1", "PF2", "PF3", "PF4", "PF5";
+ 				function = "mmc0";

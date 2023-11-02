@@ -9,7 +9,7 @@
 #include <dt-bindings/gpio/gpio.h>
 
 / {
-	model = "George Hilliard's business card";
+	model = "Liam Howatt's PPP USBIP server";
 	compatible = "licheepi,licheepi-nano", "allwinner,suniv-f1c100s",
 		     "allwinner,suniv";
 
@@ -94,6 +94,12 @@
 &uart0 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&uart0_pe_pins>;
+	status = "okay";
+};
+
+&uart1 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&uart1_pa_pins>;
 	status = "okay";
 };
 
