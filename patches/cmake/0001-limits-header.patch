@@ -1,0 +1,11 @@
+diff -purN ../businesscard-linux/buildroot/output/build/host-cmake-3.8.2/Source/cmServerProtocol.cxx ./Source/cmServerProtocol.cxx
+--- ../businesscard-linux/buildroot/output/build/host-cmake-3.8.2/Source/cmServerProtocol.cxx	2017-05-31 14:00:09.000000000 +0000
++++ ./Source/cmServerProtocol.cxx	2023-10-31 22:45:57.623315068 +0000
+@@ -26,6 +26,7 @@
+ #include <algorithm>
+ #include <string>
+ #include <vector>
++#include <limits>
+ 
+ // Get rid of some windows macros:
+ #undef max

@@ -1,0 +1,11 @@
+diff -purN /home/f1c/businesscard-linux/buildroot/output/build/host-dtc-1.4.7/dtc-lexer.l ./dtc-lexer.l
+--- /home/f1c/businesscard-linux/buildroot/output/build/host-dtc-1.4.7/dtc-lexer.l	2018-07-23 03:00:50.000000000 +0000
++++ ./dtc-lexer.l	2023-11-01 00:21:08.194401629 +0000
+@@ -38,7 +38,6 @@ LINECOMMENT	"//".*\n
+ #include "srcpos.h"
+ #include "dtc-parser.tab.h"
+ 
+-YYLTYPE yylloc;
+ extern bool treesource_error;
+ 
+ /* CAUTION: this will stop working if we ever use yyless() or yyunput() */
